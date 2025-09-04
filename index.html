@@ -187,13 +187,13 @@
             </div>
         </section>
         <section id="call-history-section">
-            <div class="bg-white rounded-xl shadow-md w-full h-full flex flex-col">
+            <div class="bg-white rounded-xl shadow-md w-full h-full flex flex-col flex-shrink-0">
                 <div class="flex items-start justify-between p-4 gap-3">
                     <h2 class="font-roboto font-medium text-lg flex items-center gap-2"><i class="fa-regular fa-clock"></i> Call History</h2>
-                    <button class="btn btn-sm bg-[#00A63E] rounded-[50px] text-white">Clear </button>
+                    <button id="clear-history" class=" btn btn-sm bg-[#00A63E] rounded-[50px] text-white">Clear </button>
                 </div>
-                <div>
-                    <ul id="call-history-list" class="space-y-2">
+                <div class="p-4 gap-3">
+                    <ul id="call-history-list" class="space-y-2 break-words">
                         <!-- History will be added here dynamically -->
                     </ul>
                 </div>
