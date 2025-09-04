@@ -3,13 +3,17 @@ function setupCounter(buttons, display){
         btn.addEventListener('click', () => {
             let count = parseInt(display.textContent || 0);
             display.textContent = count + 1;
-            let clicked = true;
 
             const card = btn.closest('.card');
             const cardName = card.querySelector('.card-title').textContent;
 
             if(btn.classList.contains('btn-copy')){
-                alert(`Copied from: ${cardName}`);
+                const number = card.querySelector('h2').textContent;
+
+                navigator.clipboard.writeText(number)
+                    .then(() => {
+                        alert(`Copied ${number} from: ${cardName}`);
+                    })
             }
         }); 
     });
