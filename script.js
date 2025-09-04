@@ -52,11 +52,11 @@ callBtn.forEach(btn => {
 
         const line1 = document.createElement('div');
         line1.textContent = `${serviceName} - ${serviceNumber}`;
-        line1.classList.add('font-semibold');
+        line1.classList.add('font-semibold', 'text-xs');
 
         const line2 = document.createElement('div');
         line2.textContent = `Called at: ${timeString}`;
-        line2.classList.add('text-sm', 'text-gray-500');
+        line2.classList.add('text-xs', 'text-gray-500');
 
         li.appendChild(line1);
         li.appendChild(line2);
