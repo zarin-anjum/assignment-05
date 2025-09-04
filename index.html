@@ -39,7 +39,7 @@
             </div>
             <div class="flex sm:gap-4 lg:gap-5">
                 <div>
-                    <h3 class="font-inter font-black text-xs lg:text-lg gap-2 px-4 lg:px-6 py-2 rounded-full shadow bg-[#D6FFD6] inline-flex items-center justify-center">0 <img src="assets/heart.png" alt="" class="w-6 h-6"></h3>
+                    <h3 class="font-inter font-black text-xs lg:text-lg gap-2 px-4 lg:px-6 py-2 rounded-full shadow bg-[#D6FFD6] inline-flex items-center justify-center"><span id="navbar-heart-count">0</span><img src="assets/heart.png" alt="" class="w-6 h-6"></h3>
                 </div>
                 <div>
                     <h3 class="font-inter font-black text-xs lg:text-lg gap-2 px-2 lg:px-3 py-2 rounded-full shadow bg-[#D6FFD6] inline-flex items-center justify-center">100 <img src="assets/coin.png" alt="" class="w-6 h-6"></h3>
@@ -61,7 +61,7 @@
                 <div class="bg-white rounded-xl shadow-md space-y-1 p-4 w-full max-w-[320px] lg:max-w-[280px] mx-auto h-auto">
                     <div class="flex justify-between">
                         <img src="assets/emergency.png" alt="" class="bg-[#FFE3E2] rounded-xl w-8 h-8 p-[6px]">
-                        <button><i class="fa-regular fa-heart"></i></button>
+                        <button class="btn-heart hover:text-red-800"><i class="fa-regular fa-heart"></i></button>
                     </div>
                     <h3 class="font-hind font-bold text-sm lg:text-lg">National Emergency Number</h1>
                     <p class="font-roboto font-normal text-xs lg:text-sm text-[#5C5C5C]">National Emergency</p>
@@ -75,7 +75,7 @@
                 <div class="bg-white rounded-xl shadow-md space-y-1 p-4 w-full max-w-[320px] lg:max-w-[280px] mx-auto h-auto">
                     <div class="flex justify-between">
                         <img src="assets/police.png" alt="" class="bg-[#FFE3E2] rounded-xl w-8 h-8 p-[6px]">
-                        <button><i class="fa-regular fa-heart"></i></button>
+                        <button class="btn-heart hover:text-red-800"><i class="fa-regular fa-heart"></i></button>
                     </div>
                     <h3 class="font-hind font-bold text-sm lg:text-lg">Police Helpline Number</h1>
                     <p class="font-roboto font-normal text-xs lg:text-sm text-[#5C5C5C]">Police</p>
@@ -89,7 +89,7 @@
                 <div class="bg-white rounded-xl shadow-md space-y-1 p-4 w-full max-w-[320px] lg:max-w-[280px] mx-auto h-auto">
                     <div class="flex justify-between">
                         <img src="assets/fire-service.png" alt="" class="bg-[#FFE3E2] rounded-xl w-8 h-8 p-[6px]">
-                        <button><i class="fa-regular fa-heart"></i></button>
+                        <button class="btn-heart hover:text-red-800"><i class="fa-regular fa-heart"></i></button>
                     </div>
                     <h3 class="font-hind font-bold text-sm lg:text-lg">Fire Service Number</h1>
                     <p class="font-roboto font-normal text-xs lg:text-sm text-[#5C5C5C]">Fire Service</p>
@@ -103,7 +103,7 @@
                 <div class="bg-white rounded-xl shadow-md space-y-1 p-4 w-full max-w-[320px] lg:max-w-[280px] mx-auto h-auto">
                     <div class="flex justify-between">
                         <img src="assets/ambulance.png" alt="" class="bg-[#FFE3E2] rounded-xl w-8 h-8 p-[6px]">
-                        <button><i class="fa-regular fa-heart"></i></button>
+                        <button class="btn-heart hover:text-red-800"><i class="fa-regular fa-heart"></i></button>
                     </div>
                     <h3 class="font-hind font-bold text-sm lg:text-lg">Ambulance Service</h1>
                     <p class="font-roboto font-normal text-xs lg:text-sm text-[#5C5C5C]">Ambulance</p>
@@ -117,7 +117,7 @@
                 <div class="bg-white rounded-xl shadow-md space-y-1 p-4 w-full max-w-[320px] lg:max-w-[280px] mx-auto h-auto">
                     <div class="flex justify-between">
                         <img src="assets/emergency.png" alt="" class="bg-[#FFE3E2] rounded-xl w-8 h-8 p-[6px]">
-                        <button><i class="fa-regular fa-heart"></i></button>
+                        <button class="btn-heart hover:text-red-800"><i class="fa-regular fa-heart"></i></button>
                     </div>
                     <h3 class="font-hind font-bold text-sm lg:text-lg">Women & Child Helpline</h1>
                     <p class="font-roboto font-normal text-xs lg:text-sm text-[#5C5C5C]">Women & Child Helpline</p>
@@ -131,7 +131,7 @@
                 <div class="bg-white rounded-xl shadow-md space-y-1 p-4 w-full max-w-[320px] lg:max-w-[280px] mx-auto h-auto">
                     <div class="flex justify-between">
                         <img src="assets/emergency.png" alt="" class="bg-[#FFE3E2] rounded-xl w-8 h-8 p-[6px]">
-                        <button><i class="fa-regular fa-heart"></i></button>
+                        <button class="btn-heart hover:text-red-800"><i class="fa-regular fa-heart"></i></button>
                     </div>
                     <h3 class="font-hind font-bold text-sm lg:text-lg">Anti-Corruption Helpline</h1>
                     <p class="font-roboto font-normal text-xs lg:text-sm text-[#5C5C5C]">Anti-Corruption</p>
@@ -145,7 +145,7 @@
                 <div class="bg-white rounded-xl shadow-md space-y-1 p-4 w-full max-w-[320px] lg:max-w-[280px] mx-auto h-auto">
                     <div class="flex justify-between">
                         <img src="assets/emergency.png" alt="" class="bg-[#FFE3E2] rounded-xl w-8 h-8 p-[6px]">
-                        <button><i class="fa-regular fa-heart"></i></button>
+                        <button class="btn-heart hover:text-red-800"><i class="fa-regular fa-heart"></i></button>
                     </div>
                     <h3 class="font-hind font-bold text-sm lg:text-lg">Electricity Helpline</h1>
                     <p class="font-roboto font-normal text-xs lg:text-sm text-[#5C5C5C]">Electricity Outage</p>
@@ -159,7 +159,7 @@
                 <div class="bg-white rounded-xl shadow-md space-y-1 p-4 w-full max-w-[320px] lg:max-w-[280px] mx-auto h-auto">
                     <div class="flex justify-between">
                         <img src="assets/brac.png" alt="" class="bg-[#FFE3E2] rounded-xl w-8 h-8 p-[6px]">
-                        <button><i class="fa-regular fa-heart"></i></button>
+                        <button class="btn-heart hover:text-red-800"><i class="fa-regular fa-heart"></i></button>
                     </div>
                     <h3 class="font-hind font-bold text-sm lg:text-lg">BRAC Helpline</h1>
                     <p class="font-roboto font-normal text-xs lg:text-sm text-[#5C5C5C]">Brac</p>
@@ -173,7 +173,7 @@
                 <div class="bg-white rounded-xl shadow-md space-y-1 p-4 w-full max-w-[320px] lg:max-w-[280px] mx-auto h-auto">
                     <div class="flex justify-between">
                         <img src="assets/Bangladesh-Railway.png" alt="" class="bg-[#FFE3E2] rounded-xl w-8 h-8 p-[6px]">
-                        <button><i class="fa-regular fa-heart"></i></button>
+                        <button class="btn-heart hover:text-red-800"><i class="fa-regular fa-heart"></i></button>
                     </div>
                     <h3 class="font-hind font-bold text-sm lg:text-lg">Bangladesh Railway Helpline</h1>
                     <p class="font-roboto font-normal text-xs lg:text-sm text-[#5C5C5C]">Bangladesh Railway</p>
@@ -196,5 +196,7 @@
             </div>
         </section>
     </main>
+
+    <script src="script.js"></script>
 </body>
 </html
